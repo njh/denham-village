@@ -1,0 +1,58 @@
+# Site settings
+baseURL = "https://www.denhamvillage.uk/"
+languageCode = "en-GB"
+title = "Denham Village"
+theme = "hugo-split-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Nicholas Humfrey"
+  description = "Website providing information about Denham Village, Buckinghamshire, UK"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/background.jpg"
+      position = "center center"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Links"
+
+      [[params.links.list1.link]]
+        text = "Denham Parish Council"
+        url = "https://www.denhambucks-pc.gov.uk/"
+
+      [[params.links.list1.link]]
+        text = "Higher Denham Community CIO"
+        url = "http://www.hdca.org.uk/"
+
+      [[params.links.list1.link]]
+        text = "Denham Village Hall"
+        url = "http://www.dvmh.co.uk/"
+
+      [[params.links.list1.link]]
+        text = "Denham Community History"
+        url = "https://www.denhamhistory.online/"
+
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
