@@ -4,5 +4,8 @@
 /assets/jsconfig.json
 hugo_stats.json
 
+# Generated CSS
+/themes/hugo-split-theme/static/assets/css/
+
 # Temporary lock file while building
 /.hugo_build.lock

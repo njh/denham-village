@@ -146,6 +146,11 @@ body.page-template-page-fullsingle-split {
   letter-spacing: -2px;
 
   h1 {
+    // FIXME: I don't understand why this is required
+    margin-left: -5px;
+  }
+
+  h2 {
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
@@ -319,7 +324,7 @@ body.page-template-page-fullsingle-split {
 .split-lists {
 
   .split-list {
-    width: 30%;
+    //width: 30%;
     display: inline-block;
     margin-bottom: 40px;
     vertical-align: top;
@@ -340,7 +345,8 @@ body.page-template-page-fullsingle-split {
     }
 
     ul {
-
+      list-style-type: circle;
+      list-style-position: inside;
 
       li {
         font-size: 16px;
